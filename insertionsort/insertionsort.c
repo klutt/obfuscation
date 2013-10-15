@@ -10,10 +10,6 @@ void insertionSort(int *list, int length)
       list[j]>list[max] ? max=j : 0
       ) 
     { 
-      printf("i:%d j:%d max:%d\n", i, j, max);
-      for(int k=0; k<length-1; k++)
-	printf("%d, ",list[k]);
-      printf("%d\n\n", list[length-1]);
     }
 }
 
